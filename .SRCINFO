@@ -1,0 +1,23 @@
+pkgbase = brother-dcpj100-keyitdev-version
+	pkgdesc = Driver for the Brother DCP-J100 multifuncional printer
+	pkgver = 3.0.0
+	pkgrel = 3
+	url = http://solutions.brother.com/linux/en_us/index.html
+	install = brother-dcpj100.install
+	arch = i686
+	arch = x86_64
+	license = custom:brother
+	depends = a2ps
+	depends = tcsh
+	depends = cups
+	depends = libcups
+	depends = lib32-libcups
+	depends = system-config-printer
+	source = fix_lp.patch
+	source = https://download.brother.com/welcome/dlf100906/dcpj100lpr-3.0.0-1.i386.rpm
+	source = https://download.brother.com/welcome/dlf100908/dcpj100cupswrapper-3.0.0-1.i386.rpm
+	md5sums = 497e5f908d843189a0e3a9671b74ae7d
+	md5sums = ee9f4388a008467c4f65f5aa3883c764
+	md5sums = ee4525fb5900c9224a61732ec30d434a
+
+pkgname = brother-dcpj100-keyitdev-version

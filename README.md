@@ -39,7 +39,7 @@ systemctl start cups.service
 
 ## Scanner 
 
-If you want to use dcpj100 scaner install 'simple-scan' 'brscan4' packages.
+If you want to use dcpj100 scanner install 'simple-scan' 'brscan4' packages.
 
 ```
 yay -S simple-scan brscan4

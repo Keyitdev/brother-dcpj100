@@ -3,6 +3,10 @@
 
 ## Driver for the Brother DCP-J100 multifuncional printer made by Keyitdev in 2023.
 
+Build package.
+```
+makepkg -si
+```
 
 Enable multilib in the pacman config by uncommenting these two lines in pacman.conf: 
 

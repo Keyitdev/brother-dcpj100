@@ -24,6 +24,12 @@ Build package.
 makepkg -si
 ```
 
+>  If you can not build package because of validity check just generate correct checksums.
+
+```
+makepkg -g >> PKGBUILD
+```
+
 Add user to lp group using gpasswd.
 
 ```

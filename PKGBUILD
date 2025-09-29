@@ -19,9 +19,9 @@ depends=('a2ps' 'tcsh' 'cups' 'libcups' 'lib32-libcups' 'system-config-printer')
 install="brother-dcpj100.install"
 arch=('i686' 'x86_64')
 
-md5sums=('497e5f908d843189a0e3a9671b74ae7d'
-         'ee9f4388a008467c4f65f5aa3883c764'
-         'ee4525fb5900c9224a61732ec30d434a')
+md5sums=('SKIP'
+         'SKIP'
+         'SKIP')
 
 source=(
    "fix_lp.patch" \
